@@ -31,3 +31,5 @@ bool isDecimal = customer.Salary is decimal; // it's true!
 ```
 
 Let's make this workaround as complete as possible. We can change our properties to their real types later when the root cause gets solved!
+
+Note that to use this feature, you'll need VS 15.8+ and entity framework core 2.1+
